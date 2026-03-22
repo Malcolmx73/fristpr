@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mesud Portfolio</title>
+
+<style>
+
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, sans-serif;
+}
+
+body{
+  background:#0f172a;
+  color:white;
+  line-height:1.6;
+}
+
+
+.header{
+  background:black;
+  padding:20px;
+  text-align:center;
+}
+
+.logo{
+  font-size:26px;
+  font-weight:bold;
+}
+.logo span{
+  color:#38bdf8;
+}
+
+
+.navbar{
+  margin-top:10px;
+}
+.navbar a{
+  color:#38bdf8;
+  margin:0 10px;
+  text-decoration:none;
+  font-size:14px;
+}
+.navbar a:hover{
+  text-decoration:underline;
+}
+
+
+section{
+  max-width:800px;
+  margin:auto;
+  padding:40px 20px;
+  text-align:center;
+}
+
+h1{
+  font-size:28px;
+  margin-bottom:10px;
+}
+
+h2{
+  margin-bottom:20px;
+  color:#38bdf8;
+}
+
+
+.card{
+  background:#1e293b;
+  padding:15px;
+  margin-top:15px;
+  border-radius:8px;
+  transition:0.3s;
+}
+.card:hover{
+  transform:scale(1.03);
+}
+
+
+.contact a{
+  display:inline-block;
+  margin-top:10px;
+  color:#38bdf8;
+  text-decoration:none;
+}
+
+.btn{
+  display:inline-block;
+  margin-top:15px;
+  padding:10px 20px;
+  background:#38bdf8;
+  color:black;
+  text-decoration:none;
+  border-radius:5px;
+  font-weight:bold;
+}
+
+
+footer{
+  text-align:center;
+  padding:15px;
+  background:black;
+  margin-top:20px;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+</style>
+</head>
+
+<body>
+
+<header class="header">
+  <div class="logo">Mesud <span>Portfolio</span></div>
+  <div class="navbar">
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </div>
+</header>
+
+<section class="home">
+  <h1>Hi, I'm Mesud</h1>
+  <p>Computer Science Student interested in Cybersecurity</p>
+  <a href="#contact" class="btn">Contact Me</a>
+</section>
+
+<section id="about">
+  <h2>About Me</h2>
+ <div class="card">
+  I am a 3rd year Computer Science student at Wolkite University.
+  I am interested in cybersecurity and enjoy exploring how systems work and how to keep them secure.
+  I like learning by building small projects and improving my skills step by step.
+</div>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="card">HTML</div>
+  <div class="card">CSS</div>
+  <div class="card">Java</div>
+  <div class="card">Basic Networking</div>
+  <div class="card">Linux Basics</div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="card">
+    <h3>Simple Website</h3>
+    <p>Built using HTML and CSS.</p>
+  </div>
+  <div class="card">
+    <h3>Portfolio Website</h3>
+    <p>This personal portfolio to showcase my skills.</p>
+  </div>
+</section>
+
+<div class="card">
+  <p>Email: <a href="mailto:msd@gmail.com">msd@gmail.com</a></p>
+  <p>GitHub: <a href="https://github.com/Malcolmx73">github</a></p>
+</div>
+
+<footer>
+  <p>© 2026 Msd</p>
+</footer>
+
+</body>
+</html>
