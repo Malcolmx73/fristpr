@@ -15,6 +15,7 @@
   font-family:Arial, sans-serif;
 }
 
+
 body{
   background:#0f172a;
   color:white;
@@ -50,7 +51,6 @@ body{
   text-decoration:underline;
 }
 
-
 section{
   max-width:800px;
   margin:auto;
@@ -67,13 +67,24 @@ h2{
   margin-bottom:20px;
   color:#38bdf8;
 }
+.profile-img {
+  width:120px;
+  border-radius:50%;
+  margin-bottom:15px;
+  border:3px solid #38bdf8;
+}
+
+.subtitle {
+  color:#94a3b8;
+  font-size:14px;
+}
 
 
 .card{
   background:#1e293b;
   padding:15px;
   margin-top:15px;
-  border-radius:8px;
+  border-radius:10px;
   transition:0.3s;
 }
 .card:hover{
@@ -81,24 +92,40 @@ h2{
 }
 
 
-.contact a{
-  display:inline-block;
-  margin-top:10px;
-  color:#38bdf8;
-  text-decoration:none;
+.contact-card p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
 }
 
+.contact-card img {
+  width: 20px;
+  height: 20px;
+}
+
+.contact-card a {
+  color: #38bdf8;
+  text-decoration: none;
+}
+
+.contact-card a:hover {
+  text-decoration: underline;
+}
+.contact-card img:hover {
+  transform: scale(1.2);
+}
 .btn{
   display:inline-block;
   margin-top:15px;
-  padding:10px 20px;
+  padding:10px 10px;
   background:#38bdf8;
   color:black;
   text-decoration:none;
   border-radius:5px;
   font-weight:bold;
 }
-
 
 footer{
   text-align:center;
@@ -128,8 +155,10 @@ html{
 </header>
 
 <section class="home">
-  <h1>Hi, I'm Mesud</h1>
-  <p>Computer Science Student interested in Cybersecurity</p>
+  <h1>Hi, I'm Mesud Nuredin</h1>
+  <p>Computer Science Student </p>
+
+
   <a href="#contact" class="btn">Contact Me</a>
 </section>
 
@@ -138,7 +167,7 @@ html{
  <div class="card">
   I am a 3rd year Computer Science student at Wolkite University.
   I am interested in cybersecurity and enjoy exploring how systems work and how to keep them secure.
-  I like learning by building small projects and improving my skills step by step.
+ I enjoy building practical projects to strengthen my problem-solving and technical skills.
 </div>
 </section>
 
@@ -146,6 +175,7 @@ html{
   <h2>Skills</h2>
   <div class="card">HTML</div>
   <div class="card">CSS</div>
+   <div class="card">c++</div>
   <div class="card">Java</div>
   <div class="card">Basic Networking</div>
   <div class="card">Linux Basics</div>
@@ -163,11 +193,31 @@ html{
   </div>
 </section>
 
-<div class="card">
-  <p>Email: <a href="mailto:msd@gmail.com">msd@gmail.com</a></p>
-  <p>GitHub: <a href="https://github.com/Malcolmx73">github</a></p>
-</div>
+<section id="contact">
+  <h2>Contact</h2>
 
+  <div class="card contact-card">
+    
+    <p>
+      <img src="https://cdn-icons-png.flaticon.com/24/732/732200.png" alt="Email">
+      <a href="mailto:mesud7326@gmail.com">mesud7326@gmail.com</a>
+    </p>
+
+    <p>
+      <img src="https://cdn-icons-png.flaticon.com/24/733/733553.png" alt="GitHub">
+      <a href="https://github.com/Malcolmx73" target="_blank">
+        github.com/Malcolmx73
+      </a>
+    </p>
+    <p>
+  <img src="https://cdn-icons-png.flaticon.com/24/2111/2111646.png" alt="Telegram">
+  <a href="https://t.me/Z3yd1" target="_blank">
+    @Z3yd1
+  </a>
+</p>
+
+  </div>
+</section>
 <footer>
   <p>© 2026 Msd</p>
 </footer>
